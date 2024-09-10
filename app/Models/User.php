@@ -33,6 +33,8 @@ class User extends Authenticatable
         'remember_token',
     ];
 
+    public $timestamp=false;
+
     /**
      * The attributes that should be cast.
      *
